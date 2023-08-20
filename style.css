@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 250% 250%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .rounded-lg-3{
+    border: 3px solid white;
+    border-radius: 5%;
+  }
+  .oop{
+   text-align: center;
+   font-family: 'Noto Serif', serif;
+  }
+  .col-lg-7{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .oop{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+  }
+  .list{
+    list-style-type: none;
+  }
+  .feature-icon-small {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+  }
+  .contact {
+    margin-bottom: 0; /* This will remove the default margin from the last section */
+    padding-bottom: 0; /* You can adjust the padding as needed */
+  }
